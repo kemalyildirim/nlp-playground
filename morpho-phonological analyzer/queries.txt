@@ -1,0 +1,28 @@
+Queries with maximum 4 infectional morphemes:
+analyze(gitmeyecekseniz,X).
+analyze(unutmalı,X).
+analyze(gidecekse,X).
+analyzer(unutmamalıydınız, X).
+analyzer(çizmeseydim,X).
+ analyzer(yapıyormuşlar,X).
+analyzer(olmalıydık,X).
+analyzer(yüzerdik,X).
+analyzer(yapmaıyormuşlar,X).
+
+analyzer(gitler,X).
+analyzer(gittiymiş,X).
+
+
+Notes:
+	analyze -> Checks also for harmonies
+	analyzer -> Only morphemes
+	
+	I was able to run the program with analyzer but I could not succeed with
+	analyze method. example;
+	analyzer(unutmamalıydı,X). returns X = [verb, neg, neces, def-past] 
+	analyze(unutmamalıydı,X). returns false.
+	
+
+Kemal Yildirim
+161805025
+
